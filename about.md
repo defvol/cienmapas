@@ -1,21 +1,21 @@
 ---
 layout: page
-title: About
+title: Acerca
 ---
 
 <p class="message">
-  I'm a computer programmer working on algorithms, software engineering, discrete optimization and machine learning
+Soy un ingeniero de software que escribe en <a href="https://sector-f.net/">sector-f.net</a>
 </p>
 
-## The site
+## Sobre el sitio
 
-Some fun facts about the setup of this project include:
+* Esta generado con [Jekyll](http://jekyllrb.com)
+* Desarrollado y hospedado en [GitHub Pages](https://pages.github.com)
+* El código está disponible en
+[github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
+* Escrito con [VIM](https://www.vim.org), el mejor editor
+* Con un template diseñado por [@mdo](https://twitter.com/mdo)
 
-* Static site generated using [Jekyll](http://jekyllrb.com)
-* Developed on GitHub and hosted for free on [GitHub Pages](https://pages.github.com)
-* Coded with [VIM](https://www.vim.org), the best code editor
-* Template designed by [@mdo](https://twitter.com/mdo)
+Tienes dudas o comentarios? [Escríbeme en Twitter](https://twitter.com/defvol).
 
-Have questions or suggestions? Feel free to [ask me on Twitter](https://twitter.com/defvol).
-
-Thanks for reading!
+Gracias por leer!

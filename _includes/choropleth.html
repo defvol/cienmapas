@@ -1,0 +1,48 @@
+<script>
+mapboxgl.accessToken = 'pk.eyJ1Ijoicm9kb3dpIiwiYSI6ImNrODVkYjA2NDAxNDkzZmtnaWZqbms1cGkifQ.wVHRPi4isYuZxvclqcrfhQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: '{{ page.style }}',
+  center: [-102.5528, 23.6345],
+  zoom: 3.8
+});
+
+map.addControl(new mapboxgl.FullscreenControl());
+
+map.on('load', function () {
+  var maxValue = 13;
+  var data = JSON.parse('{{ site.data.covid.states | jsonify }}');
+
+  // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
+  map.addSource('states', {
+    type: 'vector',
+    url: 'mapbox://' + '{{ page.source }}'
+  });
+
+  var expression = ['match', ['get', 'CVE_ENT']];
+
+  // Calculate color for each state based on the infection rate
+  data.forEach(function(row) {
+    var green = (row['INFECTION'] / maxValue) * 255;
+    var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
+    expression.push(row['CVE_ENT'], color);
+  });
+
+  // Last value is the default, used where there is no data
+  expression.push('rgba(0,0,0,0)');
+
+  // Add layer from the vector tile source with data-driven style
+  map.addLayer(
+    {
+      'id': 'states-join',
+      'type': 'fill',
+      'source': 'states',
+      'source-layer': 'mge2015v6_2-simplified_20p-75dd75',
+      'paint': {
+        'fill-color': expression
+      }
+    },
+    'waterway-label'
+  );
+});
+</script>
