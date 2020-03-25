@@ -39,11 +39,14 @@ abierta y fácil de editar desde GitHub.
 La Secretaría de Salud publica [un infográfico estático en su comunicado
 técnico diario](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709) de donde manualmente podemos extraer los datos (a falta de tiempo para un buen OCR).
 
+## Mapa
+
 ### Metadata
 
 - **proyecto**: COVID-19
 - **code**: [https://github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
+- **fuente**: [Secretaría de Salud](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709)
 - **tecnologías**: {{ page.technologies | array_to_sentence_string }}
 - **temas**: {{ page.topics | array_to_sentence_string }}
 
-### Mapa
+
