@@ -10,9 +10,9 @@ var map = new mapboxgl.Map({
 map.addControl(new mapboxgl.FullscreenControl());
 
 map.on('load', function () {
-  var maxValue = 13;
   var data = JSON.parse('{{ site.data.covid.states | jsonify }}');
   var dataColumn = '{{ page.updated_at | date: '%Y%m%d' }}';
+  var maxValue = Math.max(...data.map(row => row[dataColumn]));
 
   // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
   map.addSource('states', {
