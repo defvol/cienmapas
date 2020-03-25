@@ -2,7 +2,7 @@
 mapboxgl.accessToken = 'pk.eyJ1Ijoicm9kb3dpIiwiYSI6ImNrODVkYjA2NDAxNDkzZmtnaWZqbms1cGkifQ.wVHRPi4isYuZxvclqcrfhQ';
 var map = new mapboxgl.Map({
   container: 'map',
-  style: 'mapbox://styles/mapbox/streets-v11',
+  style: '{{ page.style }}',
   center: [-102.5528, 23.6345],
   zoom: 3.8
 });
@@ -47,7 +47,7 @@ map.on('load', function () {
   // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
   map.addSource('states', {
     type: 'vector',
-    url: 'mapbox://rodowi.2scq6zcv'
+    url: 'mapbox://' + '{{ page.source }}'
   });
 
   var expression = ['match', ['get', 'CVE_ENT']];
