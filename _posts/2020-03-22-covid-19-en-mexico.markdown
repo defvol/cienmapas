@@ -41,6 +41,18 @@ técnico diario](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-c
 
 ## Mapa
 
+En el primer ejemplo utilizamos un espectro de colores que van desde
+'sin color' hasta el valor máximo encontrado
+[automáticamente], (p. ej.
+Hidalgo con 44 casos al 23 de Marzo).
+
+El problema con esta visualización es que un _outlier_ puede apagar
+otros focos de infección, y la atención se centra en unos cuantos.
+
+Tal vez algo más justo sería determinar el color en base a el % de la
+población infectada, como se ve en [la siguiente liga]({{ site.baseurl }}{% post_url
+2020-03-24-covid-poblacion-mexico %}).
+
 ### Metadata
 
 - **proyecto**: COVID-19
