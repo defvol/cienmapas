@@ -4,7 +4,7 @@ title:  "El COVID-19 en México por estados"
 style: "mapbox://styles/mapbox/dark-v10"
 source: "rodowi.2scq6zcv"
 date:   2020-03-22 20:04:14 -0800
-updated_at: 20200323
+updated_at: 2020-03-23
 categories: posts
 technologies:
 - mapbox.js
@@ -46,6 +46,7 @@ técnico diario](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-c
 - **proyecto**: COVID-19
 - **code**: [https://github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
 - **fuente**: [Secretaría de Salud](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709)
+- **última actualización**: {{ page.updated_at }}
 - **tecnologías**: {{ page.technologies | array_to_sentence_string }}
 - **temas**: {{ page.topics | array_to_sentence_string }}
 
