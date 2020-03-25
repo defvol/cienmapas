@@ -4,7 +4,7 @@ email: rod@sector-f.net
 description: >- # this means to ignore newlines until "baseurl:"
   Blog dedicado a poner datos en el mapa de México.
   A ver cómo sale.
-baseurl: "" # the subpath of your site, e.g. /blog
+baseurl: "cienmapas" # the subpath of your site, e.g. /blog
 url: ""
 twitter_username: defvol
 github_username:  defvol
