@@ -1,0 +1,40 @@
+title: Cienmapas
+tagline: "Van a ser cien mapas de México"
+email: rod@sector-f.net
+description: >- # this means to ignore newlines until "baseurl:"
+  Blog dedicado a poner datos en el mapa de México.
+  A ver cómo sale.
+baseurl: "" # the subpath of your site, e.g. /blog
+url: ""
+twitter_username: defvol
+github_username:  defvol
+linkedin_username: rowil
+stackoverflow_username: 894892/defvol
+
+# Build settings
+markdown: kramdown
+theme: minima
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+
+# Lanyon setup
+permalink: pretty
+paginate: 5
+
+# About/contact
+author:
+  name:              Rod Wilhelmy
+  email:             rod@sector-f.net
+
+# Exclude from processing.
+# The following items will not be processed, by default. Create a custom list
+# to override the default setting.
+# exclude:
+#   - Gemfile
+#   - Gemfile.lock
+#   - node_modules
+#   - vendor/bundle/
+#   - vendor/cache/
+#   - vendor/gems/
+#   - vendor/ruby/
