@@ -1,33 +1,33 @@
-CVE_ENT,NOM_ENT,INFECTION
-"01","Aguascalientes",8
-"02","Baja California",6
-"03","Baja California Sur",8
-"04","Campeche",4
-"05","Coahuila de Zaragoza",4
-"06","Colima",5
-"07","Chiapas",1
-"08","Chihuahua",1
-"09","Ciudad de México",2
-"10","Durango",13
-"11","Guanajuato",0
-"12","Guerrero",3
-"13","Hidalgo",13
-"14","Jalisco",2
-"15","México",8
-"16","Michoacán de Ocampo",7
-"17","Morelos",12
-"18","Nayarit",9
-"19","Nuevo León",0
-"20","Oaxaca",5
-"21","Puebla",8
-"22","Querétaro",9
-"23","Quintana Roo",4
-"24","San Luis Potosí",8
-"25","Sinaloa",10
-"26","Sonora",12
-"27","Tabasco",5
-"28","Tamaulipas",3
-"29","Tlaxcala",6
-"30","Veracruz de Ignacio de la Llave",9
-"31","Yucatán",1
-"32","Zacatecas",4
+CVE_ENT,NOM_ENT,20200323
+"01","Aguascalientes",0
+"02","Baja California",4
+"03","Baja California Sur",1
+"04","Campeche",0
+"05","Coahuila de Zaragoza",3
+"06","Colima",4
+"07","Chiapas",2
+"08","Chihuahua",0
+"09","Ciudad de México",23
+"10","Durango",0
+"11","Guanajuato",3
+"12","Guerrero",4
+"13","Hidalgo",44
+"14","Jalisco",3
+"15","México",6
+"16","Michoacán de Ocampo",22
+"17","Morelos",2
+"18","Nayarit",0
+"19","Nuevo León",25
+"20","Oaxaca",4
+"21","Puebla",9
+"22","Querétaro",2
+"23","Quintana Roo",0
+"24","San Luis Potosí",1
+"25","Sinaloa",13
+"26","Sonora",0
+"27","Tabasco",0
+"28","Tamaulipas",1
+"29","Tlaxcala",0
+"30","Veracruz de Ignacio de la Llave",5
+"31","Yucatán",0
+"32","Zacatecas",1

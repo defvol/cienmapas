@@ -4,6 +4,7 @@ title:  "El COVID-19 en México por estados"
 style: "mapbox://styles/mapbox/dark-v10"
 source: "rodowi.2scq6zcv"
 date:   2020-03-22 20:04:14 -0800
+updated_at: 20200323
 categories: posts
 technologies:
 - mapbox.js
