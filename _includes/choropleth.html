@@ -12,7 +12,6 @@ map.addControl(new mapboxgl.FullscreenControl());
 map.on('load', function () {
   var data = JSON.parse('{{ site.data.covid.states | jsonify }}');
   var dataColumn = '{{ page.updated_at | date: '%Y%m%d' }}';
-  var maxValue = Math.max(...data.map(row => row[dataColumn]));
 
   // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
   map.addSource('states', {
@@ -22,9 +21,18 @@ map.on('load', function () {
 
   var expression = ['match', ['get', 'CVE_ENT']];
 
+  var maxValue = Math.max(...data.map(row => row[dataColumn]));
+  var calculator = row => (row[dataColumn] / maxValue) * 255;
+
+  {% if page.method == "by_population" %}
+  var coverage = data.map(row => row[dataColumn] / row['POB'])
+  var maxCoverage = Math.max(...coverage)
+  calculator = row => (row[dataColumn] / row['POB'] / maxCoverage) * 255;
+  {% endif %}
+
   // Calculate color for each state based on the infection rate
   data.forEach(function(row) {
-    var green = (row[dataColumn] / maxValue) * 255;
+    var green = calculator(row)
     var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
     expression.push(row['CVE_ENT'], color);
   });
