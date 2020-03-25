@@ -7,6 +7,8 @@ var map = new mapboxgl.Map({
   zoom: 3.8
 });
 
+map.addControl(new mapboxgl.FullscreenControl());
+
 map.on('load', function () {
   var maxValue = 13;
   var data = [
