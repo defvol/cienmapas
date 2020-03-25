@@ -1,33 +1,33 @@
-CVE_ENT,infection
-01,8
-02,6
-03,8
-04,4
-05,4
-06,5
-07,1
-08,1
-09,2
-10,13
-11,0
-12,3
-13,13
-14,2
-15,8
-16,7
-17,12
-18,9
-19,0
-20,5
-21,8
-22,9
-23,4
-24,8
-25,10
-26,12
-27,5
-28,3
-29,6
-30,9
-31,1
-32,4
+CVE_ENT,NOM_ENT,INFECTION
+"01","Aguascalientes",8
+"02","Baja California",6
+"03","Baja California Sur",8
+"04","Campeche",4
+"05","Coahuila de Zaragoza",4
+"06","Colima",5
+"07","Chiapas",1
+"08","Chihuahua",1
+"09","Ciudad de México",2
+"10","Durango",13
+"11","Guanajuato",0
+"12","Guerrero",3
+"13","Hidalgo",13
+"14","Jalisco",2
+"15","México",8
+"16","Michoacán de Ocampo",7
+"17","Morelos",12
+"18","Nayarit",9
+"19","Nuevo León",0
+"20","Oaxaca",5
+"21","Puebla",8
+"22","Querétaro",9
+"23","Quintana Roo",4
+"24","San Luis Potosí",8
+"25","Sinaloa",10
+"26","Sonora",12
+"27","Tabasco",5
+"28","Tamaulipas",3
+"29","Tlaxcala",6
+"30","Veracruz de Ignacio de la Llave",9
+"31","Yucatán",1
+"32","Zacatecas",4

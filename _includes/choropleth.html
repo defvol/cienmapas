@@ -23,7 +23,7 @@ map.on('load', function () {
 
   // Calculate color for each state based on the infection rate
   data.forEach(function(row) {
-    var green = (row['infection'] / maxValue) * 255;
+    var green = (row['INFECTION'] / maxValue) * 255;
     var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
     expression.push(row['CVE_ENT'], color);
   });
