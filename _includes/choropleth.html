@@ -11,40 +11,7 @@ map.addControl(new mapboxgl.FullscreenControl());
 
 map.on('load', function () {
   var maxValue = 13;
-  var data = [
-    { 'CVE_ENT': '01', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '02', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '03', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '04', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '05', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '06', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '07', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '08', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '09', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '10', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '11', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '12', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '13', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '14', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '15', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '16', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '17', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '18', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '19', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '20', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '21', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '22', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '23', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '24', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '25', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '26', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '27', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '28', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '29', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '30', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '31', 'unemployment': Math.round(Math.random() * 13) },
-    { 'CVE_ENT': '32', 'unemployment': Math.round(Math.random() * 13) }
-  ]
+  var data = JSON.parse('{{ site.data.covid.states | jsonify }}');
 
   // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
   map.addSource('states', {
