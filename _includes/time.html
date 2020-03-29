@@ -8,14 +8,36 @@ function getFeature (CVE_ENT) {
 }
 
 function getFeatureCollectionForDate (date) {
-  var today = series[date];
-  var features = Object.keys(today)
+  return {
+    type: 'FeatureCollection',
+    features: casesToFeatures(series[date])
+  };
+}
+
+function casesToFeatures (cases) {
+  return Object.keys(cases)
     .map(CVE_ENT => {
       const f = getFeature(CVE_ENT);
-      f.properties['CASOS'] = today[CVE_ENT]['CASOS'];
+      f.properties['CASOS'] = cases[CVE_ENT]['CASOS'];
       return f;
     });
-  return { type: 'FeatureCollection', features };
+}
+
+
+function styleExpressionForFeatures (features) {
+  // Calculate color for each state based on the infection rate
+  var expression = ['match', ['get', 'CVE_ENT']];
+  var maxValue = Math.max(...features.map(f => f.properties['CASOS']));
+  features.forEach(function(state) {
+    var calculator = state => (state.properties['CASOS'] / maxValue) * 255;
+    var green = calculator(state);
+    var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
+    expression.push(state.properties['CVE_ENT'], color);
+  });
+
+  // Last value is the default, used where there is no data
+  expression.push('rgba(0,0,0,0)');
+  return expression;
 }
 
 mapboxgl.accessToken = 'pk.eyJ1Ijoicm9kb3dpIiwiYSI6ImNrODVkYjA2NDAxNDkzZmtnaWZqbms1cGkifQ.wVHRPi4isYuZxvclqcrfhQ';
@@ -29,58 +51,42 @@ var map = new mapboxgl.Map({
 map.addControl(new mapboxgl.FullscreenControl());
 
 map.on('load', function () {
-  var featureCollection = getFeatureCollectionForDate('20200316');
-
   // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
   map.addSource('states', {
     type: 'vector',
     url: 'mapbox://' + '{{ page.source }}'
   });
 
-  var expression = ['match', ['get', 'CVE_ENT']];
+  var features = casesToFeatures(series['20200316']);
+  var expression = styleExpressionForFeatures(features);
 
-  map.addLayer({
-    id: 'cases',
-    type: 'circle',
-    source: {
-      type: 'geojson',
-      data: featureCollection
+  // Add layer from the vector tile source with data-driven style
+  map.addLayer(
+    {
+      'id': 'states-join',
+      'type': 'fill',
+      'source': 'states',
+      'source-layer': 'mge2015v6_2-simplified_20p-75dd75',
+      'paint': {
+        'fill-color': expression
+      }
     },
-    paint: {
-      'circle-radius': [
-        'interpolate',
-        ['linear'],
-        ['number', ['get', 'CASOS']],
-          1,   5,
-          6,  25,
-         26,  50,
-         51, 100,
-        101, 250,
-        251, 500,
-        501, 1000
-      ],
-      'circle-color': [
-        'interpolate',
-        ['linear'],
-        ['number', ['get', 'CASOS']],
-        0, '#DAF7A6',
-        1, '#FFC300',
-        2, '#FF5733',
-        3, '#C70039',
-        4, '#900C3F',
-        5, '#581845'
-      ],
-      'circle-opacity': 0.8
-    }
-  });
+    'waterway-label'
+  );
 });
 
 document.getElementById('slider').addEventListener('input', function (e) {
   var date = String(parseInt(e.target.value));
-  var featureCollection = getFeatureCollectionForDate(date);
 
   // update the map
-  map.getSource('cases').setData(featureCollection);
+  var features = casesToFeatures(series[date]);
+  var expression = styleExpressionForFeatures(features);
+
+  map.setPaintProperty(
+    'states-join',
+    'fill-color',
+    expression
+  );
 
   // converting timestamp to human-friendly format
   const year = date.substring(0, 4);
