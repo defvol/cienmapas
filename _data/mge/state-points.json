@@ -1,0 +1,453 @@
+{
+  "type": "FeatureCollection",
+  "features": [
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "01",
+        "NOM_ENT": "Aguascalientes"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.35616,
+          22.01926
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "02",
+        "NOM_ENT": "Baja California"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -115.84614,
+          30.32649
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "03",
+        "NOM_ENT": "Baja California Sur"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -112.68415,
+          26.69107
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "04",
+        "NOM_ENT": "Campeche"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -90.74689,
+          19.20499
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "05",
+        "NOM_ENT": "Coahuila de Zaragoza"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -101.9101,
+          27.37455
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "06",
+        "NOM_ENT": "Colima"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.75071,
+          18.89145
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "07",
+        "NOM_ENT": "Chiapas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.46694,
+          16.55166
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "08",
+        "NOM_ENT": "Chihuahua"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -106.37812,
+          28.41896
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "09",
+        "NOM_ENT": "Distrito Federal"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.141,
+          19.26552
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "10",
+        "NOM_ENT": "Durango"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -104.67625,
+          24.96026
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "11",
+        "NOM_ENT": "Guanajuato"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.92956,
+          20.85821
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "12",
+        "NOM_ENT": "Guerrero"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.91636,
+          17.8405
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "13",
+        "NOM_ENT": "Hidalgo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.83782,
+          20.4788
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "14",
+        "NOM_ENT": "Jalisco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -103.69545,
+          20.56356
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "15",
+        "NOM_ENT": "México"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.58195,
+          19.43369
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "16",
+        "NOM_ENT": "Michoacán de Ocampo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.16716,
+          19.16623
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "17",
+        "NOM_ENT": "Morelos"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.03933,
+          18.72033
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "18",
+        "NOM_ENT": "Nayarit"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -105.21083,
+          21.79661
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "19",
+        "NOM_ENT": "Nuevo León"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -99.78221,
+          25.60176
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "20",
+        "NOM_ENT": "Oaxaca"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.78425,
+          17.15865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "21",
+        "NOM_ENT": "Puebla"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -97.83173,
+          18.9187
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "22",
+        "NOM_ENT": "Querétaro"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.06595,
+          20.65332
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "23",
+        "NOM_ENT": "Quintana Roo"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -88.20742,
+          19.17128
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "24",
+        "NOM_ENT": "San Luis Potosí"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -100.70884,
+          22.82543
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "25",
+        "NOM_ENT": "Sinaloa"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -108.37739,
+          25.92953
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "26",
+        "NOM_ENT": "Sonora"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -110.51615,
+          29.63865
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "27",
+        "NOM_ENT": "Tabasco"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -92.5693,
+          17.95571
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "28",
+        "NOM_ENT": "Tamaulipas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.65265,
+          25.30659
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "29",
+        "NOM_ENT": "Tlaxcala"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -98.17167,
+          19.42857
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "30",
+        "NOM_ENT": "Veracruz de Ignacio de la Llave"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -96.57023,
+          19.37958
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "31",
+        "NOM_ENT": "Yucatán"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -89.8611,
+          21.23427
+        ]
+      }
+    },
+    {
+      "type": "Feature",
+      "properties": {
+        "CVE_ENT": "32",
+        "NOM_ENT": "Zacatecas"
+      },
+      "geometry": {
+        "type": "Point",
+        "coordinates": [
+          -102.65681,
+          22.93255
+        ]
+      }
+    }
+  ]
+}
