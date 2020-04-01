@@ -27,9 +27,10 @@ function casesToFeatures (cases) {
 function styleExpressionForFeatures (features) {
   // Calculate color for each state based on the infection rate
   var expression = ['match', ['get', 'CVE_ENT']];
-  var maxValue = Math.max(...features.map(f => f.properties['CASOS']));
+  var popRate = f => f.properties['CASOS'] / f.properties['POB'];
+  var maxRate = Math.max(...features.map(popRate));
   features.forEach(function(state) {
-    var calculator = state => (state.properties['CASOS'] / maxValue) * 255;
+    var calculator = state => (popRate(state) / maxRate) * 255;
     var green = calculator(state);
     var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
     expression.push(state.properties['CVE_ENT'], color);

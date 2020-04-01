@@ -4,6 +4,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1184996,
         "CVE_ENT": "01",
         "NOM_ENT": "Aguascalientes"
       },
@@ -18,6 +19,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 3155070,
         "CVE_ENT": "02",
         "NOM_ENT": "Baja California"
       },
@@ -32,6 +34,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 637026,
         "CVE_ENT": "03",
         "NOM_ENT": "Baja California Sur"
       },
@@ -46,6 +49,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 822441,
         "CVE_ENT": "04",
         "NOM_ENT": "Campeche"
       },
@@ -60,6 +64,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2748391,
         "CVE_ENT": "05",
         "NOM_ENT": "Coahuila de Zaragoza"
       },
@@ -74,6 +79,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 650555,
         "CVE_ENT": "06",
         "NOM_ENT": "Colima"
       },
@@ -88,6 +94,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 4796580,
         "CVE_ENT": "07",
         "NOM_ENT": "Chiapas"
       },
@@ -102,6 +109,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 3406465,
         "CVE_ENT": "08",
         "NOM_ENT": "Chihuahua"
       },
@@ -116,6 +124,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 8851080,
         "CVE_ENT": "09",
         "NOM_ENT": "Distrito Federal"
       },
@@ -130,6 +139,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1632934,
         "CVE_ENT": "10",
         "NOM_ENT": "Durango"
       },
@@ -144,6 +154,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 5486372,
         "CVE_ENT": "11",
         "NOM_ENT": "Guanajuato"
       },
@@ -158,6 +169,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 3388768,
         "CVE_ENT": "12",
         "NOM_ENT": "Guerrero"
       },
@@ -172,6 +184,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2665018,
         "CVE_ENT": "13",
         "NOM_ENT": "Hidalgo"
       },
@@ -186,6 +199,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 7350682,
         "CVE_ENT": "14",
         "NOM_ENT": "Jalisco"
       },
@@ -200,6 +214,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 15175862,
         "CVE_ENT": "15",
         "NOM_ENT": "México"
       },
@@ -214,6 +229,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 4351037,
         "CVE_ENT": "16",
         "NOM_ENT": "Michoacán de Ocampo"
       },
@@ -228,6 +244,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1777227,
         "CVE_ENT": "17",
         "NOM_ENT": "Morelos"
       },
@@ -242,6 +259,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1084979,
         "CVE_ENT": "18",
         "NOM_ENT": "Nayarit"
       },
@@ -256,6 +274,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 4653458,
         "CVE_ENT": "19",
         "NOM_ENT": "Nuevo León"
       },
@@ -270,6 +289,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 3801962,
         "CVE_ENT": "20",
         "NOM_ENT": "Oaxaca"
       },
@@ -284,6 +304,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 5779829,
         "CVE_ENT": "21",
         "NOM_ENT": "Puebla"
       },
@@ -298,6 +319,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1827937,
         "CVE_ENT": "22",
         "NOM_ENT": "Querétaro"
       },
@@ -312,6 +334,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1325578,
         "CVE_ENT": "23",
         "NOM_ENT": "Quintana Roo"
       },
@@ -326,6 +349,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2585518,
         "CVE_ENT": "24",
         "NOM_ENT": "San Luis Potosí"
       },
@@ -340,6 +364,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2767761,
         "CVE_ENT": "25",
         "NOM_ENT": "Sinaloa"
       },
@@ -354,6 +379,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2662480,
         "CVE_ENT": "26",
         "NOM_ENT": "Sonora"
       },
@@ -368,6 +394,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 2238603,
         "CVE_ENT": "27",
         "NOM_ENT": "Tabasco"
       },
@@ -382,6 +409,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 3268554,
         "CVE_ENT": "28",
         "NOM_ENT": "Tamaulipas"
       },
@@ -396,6 +424,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1169936,
         "CVE_ENT": "29",
         "NOM_ENT": "Tlaxcala"
       },
@@ -410,6 +439,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 7643194,
         "CVE_ENT": "30",
         "NOM_ENT": "Veracruz de Ignacio de la Llave"
       },
@@ -424,6 +454,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1955577,
         "CVE_ENT": "31",
         "NOM_ENT": "Yucatán"
       },
@@ -438,6 +469,7 @@
     {
       "type": "Feature",
       "properties": {
+        "POB": 1490668,
         "CVE_ENT": "32",
         "NOM_ENT": "Zacatecas"
       },
