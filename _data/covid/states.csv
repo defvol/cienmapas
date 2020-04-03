@@ -1,33 +1,33 @@
 CVE_ENT,NOM_ENT,POB,20200323
-"01","Aguascalientes",1184996,0
-"02","Baja California",3155070,4
-"03","Baja California Sur",637026,1
-"04","Campeche",822441,0
-"05","Coahuila de Zaragoza",2748391,3
-"06","Colima",650555,4
+"01","Aguascalientes",1184996,6
+"02","Baja California",3155070,13
+"03","Baja California Sur",637026,2
+"04","Campeche",822441,2
+"05","Coahuila de Zaragoza",2748391,12
+"06","Colima",650555,2
 "07","Chiapas",4796580,2
-"08","Chihuahua",3406465,0
-"09","Ciudad de México",8851080,23
-"10","Durango",1632934,0
-"11","Guanajuato",5486372,3
-"12","Guerrero",3388768,4
-"13","Hidalgo",2665018,44
-"14","Jalisco",7350682,3
-"15","México",15175862,6
-"16","Michoacán de Ocampo",4351037,22
+"08","Chihuahua",3406465,5
+"09","Ciudad de México",8851080,60
+"10","Durango",1632934,5
+"11","Guanajuato",5486372,7
+"12","Guerrero",3388768,5
+"13","Hidalgo",2665018,7
+"14","Jalisco",7350682,46
+"15","México",15175862,22
+"16","Michoacán de Ocampo",4351037,7
 "17","Morelos",1777227,2
-"18","Nayarit",1084979,0
-"19","Nuevo León",4653458,25
+"18","Nayarit",1084979,1
+"19","Nuevo León",4653458,40
 "20","Oaxaca",3801962,4
-"21","Puebla",5779829,9
-"22","Querétaro",1827937,2
-"23","Quintana Roo",1325578,0
-"24","San Luis Potosí",2585518,1
-"25","Sinaloa",2767761,13
-"26","Sonora",2662480,0
-"27","Tabasco",2238603,0
-"28","Tamaulipas",3268554,1
+"21","Puebla",5779829,16
+"22","Querétaro",1827937,16
+"23","Quintana Roo",1325578,21
+"24","San Luis Potosí",2585518,16
+"25","Sinaloa",2767761,4
+"26","Sonora",2662480,4
+"27","Tabasco",2238603,6
+"28","Tamaulipas",3268554,5
 "29","Tlaxcala",1169936,0
-"30","Veracruz de Ignacio de la Llave",7643194,5
-"31","Yucatán",1955577,0
-"32","Zacatecas",1490668,1
+"30","Veracruz de Ignacio de la Llave",7643194,7
+"31","Yucatán",1955577,19
+"32","Zacatecas",1490668,3
