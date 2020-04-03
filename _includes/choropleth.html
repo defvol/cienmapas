@@ -53,5 +53,27 @@ map.on('load', function () {
     },
     'waterway-label'
   );
+
+  // Open a popup at the location of the click
+  map.on('click', 'states-join', function(e) {
+    var properties = e.features[0].properties;
+    var stateData = data.find(row => row.CVE_ENT === properties.CVE_ENT);
+    var popupCode = `Estado: ${stateData.NOM_ENT}<br />Casos: ${stateData[dataColumn]}`;
+
+    new mapboxgl.Popup()
+      .setLngLat(e.lngLat)
+      .setHTML(popupCode)
+      .addTo(map);
+  });
+
+  // Change the cursor to a pointer when the mouse is over the states layer.
+  map.on('mouseenter', 'states-join', function() {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  // Change it back to a pointer when it leaves.
+  map.on('mouseleave', 'states-join', function() {
+    map.getCanvas().style.cursor = '';
+  });
 });
 </script>
