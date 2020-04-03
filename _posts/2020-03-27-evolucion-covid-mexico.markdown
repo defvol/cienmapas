@@ -23,7 +23,7 @@ Tomando como referencia los [archivos .XLSX publicados por guzmart](https://gith
 2. Mezcla los CSVs en un JSON indexado por fechas, y de paso utiliza el
    [Marco Geoestadístico de INEGI](https://www.inegi.org.mx/temas/mg/) para nombrar los estados, y así
    hacerlos más fácil de asociar a geometrías (i.e. shapefiles). El
-   resultado se puede ver en [la siguiente liga](https://github.com/defvol/cienmapas/tree/master/_data/covid) y el script en [esta otra](https://gist.github.com/defvol/b802c12afb57557b7322b164ccf7970c).
+   resultado se puede ver en [series.json](https://github.com/defvol/cienmapas/tree/master/_data/covid/series.json) y el script en [covid19mx-to-jsonseries.js](https://gist.github.com/defvol/b802c12afb57557b7322b164ccf7970c).
 
 ```sh
 find . -name '*.xlsx' | xargs -I {} xlsx2csv {} {}.csv | \
