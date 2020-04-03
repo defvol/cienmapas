@@ -3,19 +3,15 @@ layout: page
 title: Acerca
 ---
 
-<p class="message">
-Soy un ingeniero de software que escribe en <a href="https://sector-f.net/">sector-f.net</a>
-</p>
+Después de trabajar varios años abriendo datos públicos de gobierno como co-fundador de [Codeando México](http://codeandomexico.org/), y posteriormente como director de datos abiertos en [gob.mx](https://datos.gob.mx/); finalmente decidí poner estos datos en el mapa, aprovechando un par de trucos que aprendí como ingeniero de datos en [Mapbox](https://mapbox.com), y esperando encontrar algunas historias.
 
-## Sobre el sitio
+La intención de este blog es visualizar datos de México en el mapa;
+si bien nos va, serán cien mapas.
 
-* Esta generado con [Jekyll](http://jekyllrb.com)
-* Desarrollado y hospedado en [GitHub Pages](https://pages.github.com)
-* El código está disponible en
-[github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
-* Escrito con [VIM](https://www.vim.org), el mejor editor
-* Con un template diseñado por [@mdo](https://twitter.com/mdo)
+Por cierto, también escribo un blog más orientado a software en
+<a href="https://sector-f.net/">sector-f.net</a>, donde de vez en cuando
+describo mi proceso de trabajo en uno que otro proyecto.
 
-Tienes dudas o comentarios? [Escríbeme en Twitter](https://twitter.com/defvol).
+Y si son de Twitter me pueden encontrar como [@defvol](https://twitter.com/defvol).
 
 Gracias por leer!
