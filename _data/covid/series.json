@@ -1,0 +1,1671 @@
+{
+  "20200316": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 3
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 2
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 2
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 9
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 13
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 8
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 7
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 4
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 2
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 2
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 4
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 21
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 1
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 1
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 1
+    }
+  },
+  "20200317": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 3
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 1
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 2
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 5
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 10
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 14
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 9
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 7
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 4
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 2
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 2
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 1
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 1
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 5
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 21
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 1
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 1
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 1
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 1
+    }
+  },
+  "20200318": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 3
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 4
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 2
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 6
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 10
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 19
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 9
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 7
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 6
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 3
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 2
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 1
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 1
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 2
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 2
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 8
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 24
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 1
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 1
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 1
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 1
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 1
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 2
+    }
+  },
+  "20200319": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 3
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 4
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 4
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 2
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 22
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 10
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 19
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 11
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 9
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 6
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 7
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 3
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 2
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 1
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 2
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 2
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 13
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 31
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 1
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 4
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 1
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 1
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 2
+    }
+  },
+  "20200320": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 4
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 4
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 4
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 2
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 28
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 14
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 29
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 14
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 11
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 11
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 7
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 3
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 2
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 2
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 2
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 4
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 13
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 31
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 1
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 4
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 2
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 1
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 4
+    }
+  },
+  "20200321": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 4
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 4
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 3
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 32
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 14
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 1
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 32
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 2
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 16
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 14
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 12
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 9
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 3
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 2
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 4
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 3
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 14
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 1
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 45
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 3
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 4
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 2
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 8
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 1
+    }
+  },
+  "20200322": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 4
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 4
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 5
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 41
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 22
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 3
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 1
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 35
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 3
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 16
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 14
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 12
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 12
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 4
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 4
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 5
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 4
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 19
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 2
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 56
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 10
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 4
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 5
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 11
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 1
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 1
+    }
+  },
+  "20200323": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 7
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 5
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 7
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 46
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 22
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 7
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 1
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 40
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 4
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 16
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 16
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 21
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 16
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 4
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 4
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 6
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 5
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 19
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 3
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 60
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 12
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 6
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 5
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 13
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 2
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 2
+    }
+  },
+  "20200324": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 12
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 6
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 7
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 46
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 22
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 8
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 1
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 52
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 4
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 22
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 16
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 22
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 16
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 4
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 4
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 6
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 5
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 24
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 3
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 66
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 12
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 2
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 6
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 6
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 13
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 2
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 2
+    }
+  },
+  "20200325": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 19
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 7
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 7
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 46
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 26
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 10
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 2
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 4
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 52
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 7
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 34
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 18
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 22
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 17
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 4
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 4
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 6
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 6
+    },
+    "29": {
+      "NOM_ENT": "tlaxcala",
+      "CVE_ENT": "29",
+      "CASOS": 1
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 29
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 3
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 82
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 12
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 4
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 12
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 6
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 14
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 5
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 2
+    }
+  },
+  "20200326": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 5
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 23
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 7
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 12
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 65
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 46
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 11
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 4
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 4
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 57
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 8
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 45
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 21
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 29
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 18
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 8
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 7
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 17
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 6
+    },
+    "29": {
+      "NOM_ENT": "tlaxcala",
+      "CVE_ENT": "29",
+      "CASOS": 1
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 7
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 32
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 4
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 83
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 13
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 4
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 13
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 6
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 19
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 7
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 2
+    }
+  },
+  "20200327": {
+    "10": {
+      "NOM_ENT": "durango",
+      "CVE_ENT": "10",
+      "CASOS": 7
+    },
+    "11": {
+      "NOM_ENT": "guanajuato",
+      "CVE_ENT": "11",
+      "CASOS": 31
+    },
+    "12": {
+      "NOM_ENT": "guerrero",
+      "CVE_ENT": "12",
+      "CASOS": 7
+    },
+    "13": {
+      "NOM_ENT": "hidalgo",
+      "CVE_ENT": "13",
+      "CASOS": 12
+    },
+    "14": {
+      "NOM_ENT": "jalisco",
+      "CVE_ENT": "14",
+      "CASOS": 78
+    },
+    "15": {
+      "NOM_ENT": "méxico",
+      "CVE_ENT": "15",
+      "CASOS": 70
+    },
+    "16": {
+      "NOM_ENT": "michoacán de ocampo",
+      "CVE_ENT": "16",
+      "CASOS": 16
+    },
+    "17": {
+      "NOM_ENT": "morelos",
+      "CVE_ENT": "17",
+      "CASOS": 4
+    },
+    "18": {
+      "NOM_ENT": "nayarit",
+      "CVE_ENT": "18",
+      "CASOS": 5
+    },
+    "19": {
+      "NOM_ENT": "nuevo león",
+      "CVE_ENT": "19",
+      "CASOS": 64
+    },
+    "20": {
+      "NOM_ENT": "oaxaca",
+      "CVE_ENT": "20",
+      "CASOS": 11
+    },
+    "21": {
+      "NOM_ENT": "puebla",
+      "CVE_ENT": "21",
+      "CASOS": 51
+    },
+    "22": {
+      "NOM_ENT": "querétaro",
+      "CVE_ENT": "22",
+      "CASOS": 23
+    },
+    "23": {
+      "NOM_ENT": "quintana roo",
+      "CVE_ENT": "23",
+      "CASOS": 29
+    },
+    "24": {
+      "NOM_ENT": "san luis potosí",
+      "CVE_ENT": "24",
+      "CASOS": 19
+    },
+    "25": {
+      "NOM_ENT": "sinaloa",
+      "CVE_ENT": "25",
+      "CASOS": 9
+    },
+    "26": {
+      "NOM_ENT": "sonora",
+      "CVE_ENT": "26",
+      "CASOS": 8
+    },
+    "27": {
+      "NOM_ENT": "tabasco",
+      "CVE_ENT": "27",
+      "CASOS": 21
+    },
+    "28": {
+      "NOM_ENT": "tamaulipas",
+      "CVE_ENT": "28",
+      "CASOS": 6
+    },
+    "29": {
+      "NOM_ENT": "tlaxcala",
+      "CVE_ENT": "29",
+      "CASOS": 4
+    },
+    "30": {
+      "NOM_ENT": "veracruz de ignacio de la llave",
+      "CVE_ENT": "30",
+      "CASOS": 17
+    },
+    "31": {
+      "NOM_ENT": "yucatán",
+      "CVE_ENT": "31",
+      "CASOS": 36
+    },
+    "32": {
+      "NOM_ENT": "zacatecas",
+      "CVE_ENT": "32",
+      "CASOS": 4
+    },
+    "09": {
+      "NOM_ENT": "ciudad de méxico",
+      "CVE_ENT": "09",
+      "CASOS": 108
+    },
+    "05": {
+      "NOM_ENT": "coahuila de zaragoza",
+      "CVE_ENT": "05",
+      "CASOS": 14
+    },
+    "07": {
+      "NOM_ENT": "chiapas",
+      "CVE_ENT": "07",
+      "CASOS": 7
+    },
+    "01": {
+      "NOM_ENT": "aguascalientes",
+      "CVE_ENT": "01",
+      "CASOS": 19
+    },
+    "08": {
+      "NOM_ENT": "chihuahua",
+      "CVE_ENT": "08",
+      "CASOS": 6
+    },
+    "06": {
+      "NOM_ENT": "colima",
+      "CVE_ENT": "06",
+      "CASOS": 2
+    },
+    "02": {
+      "NOM_ENT": "baja california",
+      "CVE_ENT": "02",
+      "CASOS": 20
+    },
+    "03": {
+      "NOM_ENT": "baja california sur",
+      "CVE_ENT": "03",
+      "CASOS": 9
+    },
+    "04": {
+      "NOM_ENT": "campeche",
+      "CVE_ENT": "04",
+      "CASOS": 2
+    }
+  }
+}

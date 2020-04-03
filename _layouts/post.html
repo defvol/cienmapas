@@ -14,6 +14,16 @@ layout: default
   {{ content }}
 
   <div id="map"></div>
+
+  {% if page.map_template == "time" %}
+
+  <div class='session' id='sliderbar'>
+    <h2>Fecha: <label id='active-date'>2020-03-20</label></h2>
+    <input id='slider' class='row' type='range' min='20200316' max='20200327' step='1' value='20200320' />
+  </div>
+
+  {% endif %}
+
 </div>
 
 <div class="related">
@@ -32,4 +42,8 @@ layout: default
   </ul>
 </div>
 
+{% if page.map_template == "time" %}
+{% include time.html %}
+{% else %}
 {% include choropleth.html %}
+{% endif %}

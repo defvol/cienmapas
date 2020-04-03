@@ -1,0 +1,100 @@
+<script>
+var series = JSON.parse('{{ site.data.covid.series | jsonify }}');
+var centerPoints = JSON.parse('{{ site.data.mge.state-points | jsonify }}');
+
+function getFeature (CVE_ENT) {
+  return centerPoints.features
+    .find(f => f.properties.CVE_ENT === CVE_ENT);
+}
+
+function getFeatureCollectionForDate (date) {
+  return {
+    type: 'FeatureCollection',
+    features: casesToFeatures(series[date])
+  };
+}
+
+function casesToFeatures (cases) {
+  return Object.keys(cases)
+    .map(CVE_ENT => {
+      const f = getFeature(CVE_ENT);
+      f.properties['CASOS'] = cases[CVE_ENT]['CASOS'];
+      return f;
+    });
+}
+
+
+function styleExpressionForFeatures (features) {
+  // Calculate color for each state based on the infection rate
+  var expression = ['match', ['get', 'CVE_ENT']];
+  var popRate = f => f.properties['CASOS'] / f.properties['POB'];
+  var maxRate = Math.max(...features.map(popRate));
+  features.forEach(function(state) {
+    var calculator = state => (popRate(state) / maxRate) * 255;
+    var green = calculator(state);
+    var color = 'rgba(' + 0 + ', ' + green + ', ' + 0 + ', 1)';
+    expression.push(state.properties['CVE_ENT'], color);
+  });
+
+  // Last value is the default, used where there is no data
+  expression.push('rgba(0,0,0,0)');
+  return expression;
+}
+
+mapboxgl.accessToken = 'pk.eyJ1Ijoicm9kb3dpIiwiYSI6ImNrODVkYjA2NDAxNDkzZmtnaWZqbms1cGkifQ.wVHRPi4isYuZxvclqcrfhQ';
+var map = new mapboxgl.Map({
+  container: 'map',
+  style: '{{ page.style }}',
+  center: [-102.5528, 23.6345],
+  zoom: 3.8
+});
+
+map.addControl(new mapboxgl.FullscreenControl());
+
+map.on('load', function () {
+  // Add source for state polygons hosted on Mapbox, based on INEGI Census Data:
+  map.addSource('states', {
+    type: 'vector',
+    url: 'mapbox://' + '{{ page.source }}'
+  });
+
+  var features = casesToFeatures(series['20200316']);
+  var expression = styleExpressionForFeatures(features);
+
+  // Add layer from the vector tile source with data-driven style
+  map.addLayer(
+    {
+      'id': 'states-join',
+      'type': 'fill',
+      'source': 'states',
+      'source-layer': 'mge2015v6_2-simplified_20p-75dd75',
+      'paint': {
+        'fill-color': expression
+      }
+    },
+    'waterway-label'
+  );
+});
+
+document.getElementById('slider').addEventListener('input', function (e) {
+  var date = String(parseInt(e.target.value));
+
+  // update the map
+  var features = casesToFeatures(series[date]);
+  var expression = styleExpressionForFeatures(features);
+
+  map.setPaintProperty(
+    'states-join',
+    'fill-color',
+    expression
+  );
+
+  // converting timestamp to human-friendly format
+  const year = date.substring(0, 4);
+  const month = date.substring(4, 6);
+  const day = date.substring(6);
+  const humanDate = `${year}-${month}-${day}`
+  // update text in the UI
+  document.getElementById('active-date').innerText = humanDate;
+});
+</script>
