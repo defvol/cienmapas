@@ -76,8 +76,19 @@ map.on('load', function () {
   );
 });
 
+const getDateString = d => d.toISOString().split('T')[0];
+const dayInMs = 86400000;
+const start = new Date('2020-03-16');
+const yesterday = new Date(Date.now() - dayInMs);
+
+const slider = document.getElementById('slider');
+slider.max = (yesterday - start) / dayInMs;
+document.getElementById('active-date').innerText = getDateString(start);
+
 document.getElementById('slider').addEventListener('input', function (e) {
-  var date = String(parseInt(e.target.value));
+  const days = e.target.value * dayInMs;
+  const newDate = new Date(start.getTime() + days);
+  var date = getDateString(newDate).replace(/-/g, '');
 
   // update the map
   var features = casesToFeatures(series[date]);
