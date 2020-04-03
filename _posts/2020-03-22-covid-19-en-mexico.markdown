@@ -36,30 +36,27 @@ abierta y fácil de editar desde GitHub.
 
 ### Los datos
 
-La Secretaría de Salud publica [un infográfico estático en su comunicado
-técnico diario](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709) de donde manualmente podemos extraer los datos (a falta de tiempo para un buen OCR).
+La Secretaría de Salud publica [un comunicado técnico diario](https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449) en PDF, de donde manualmente podemos extraer los datos (a falta de tiempo para un buen OCR).
 
 ## Mapa
 
 En el primer ejemplo utilizamos un espectro de colores que van desde
 'sin color' hasta el valor máximo encontrado
 [automáticamente], (p. ej.
-Hidalgo con 44 casos al 23 de Marzo).
+Ciudad de México con 60 casos confirmados al 23 de Marzo).
 
 El problema con esta visualización es que un _outlier_ puede apagar
 otros focos de infección, y la atención se centra en unos cuantos.
 
-Tal vez algo más justo sería determinar el color en base a el % de la
-población infectada, como se ve en [la siguiente liga]({{ site.baseurl }}{% post_url
+Tal vez algo más justo sería determinar el color en base a el número de casos
+relativa al tamaño de la población, como se ve en [la siguiente liga]({{ site.baseurl }}{% post_url
 2020-03-24-covid-poblacion-mexico %}).
 
 ### Metadata
 
 - **proyecto**: COVID-19
 - **code**: [https://github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
-- **fuente**: [Secretaría de Salud](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709)
+- **fuente**: [Comunicado Técnico Diario de la Secretaría de Salud](https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449)
 - **última actualización**: {{ page.updated_at }}
 - **tecnologías**: {{ page.technologies | array_to_sentence_string }}
 - **temas**: {{ page.topics | array_to_sentence_string }}
-
-

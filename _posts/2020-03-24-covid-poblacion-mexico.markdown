@@ -29,11 +29,15 @@ Se calcula cobertura por estado como `casos / poblacion`, y el color del
 estado entra en el rango (0, cobertura_maxima), donde la
 cobertura_maxima es el estado con el peor caso.
 
+A diferencia del mapa anterior, aquí toma más relevancia Quintana Roo y
+Yucatán, y un poco menos Nuevo León, Jalisco, y CDMX (dada la densidad
+poblacional).
+
 ### Metadata
 
 - **proyecto**: COVID-19
 - **code**: [https://github.com/defvol/cienmapas](https://github.com/defvol/cienmapas)
-- **fuentes**: [Secretaría de Salud](https://www.gob.mx/salud/prensa/nuevo-coronavirus-en-el-mundo-covid-19-comunicado-tecnico-diario-238709), [Marco Geoestadístico Estatal de INEGI](https://www.inegi.org.mx/temas/mg/)
+- **fuentes**: [Comunicado Técnico Diario de la Secretaría de Salud](https://www.gob.mx/salud/documentos/coronavirus-covid-19-comunicado-tecnico-diario-238449), [Marco Geoestadístico Estatal de INEGI](https://www.inegi.org.mx/temas/mg/)
 - **última actualización**: {{ page.updated_at }}
 - **tecnologías**: {{ page.technologies | array_to_sentence_string }}
 - **temas**: {{ page.topics | array_to_sentence_string }}

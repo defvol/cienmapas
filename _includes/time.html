@@ -1,6 +1,25 @@
 <script>
+// data
 var series = JSON.parse('{{ site.data.covid.series | jsonify }}');
 var centerPoints = JSON.parse('{{ site.data.mge.state-points | jsonify }}');
+
+// elements
+const slider = document.getElementById('slider');
+
+// constants
+const getDateString = d => d.toISOString().split('T')[0];
+const dayInMs = 86400000;
+const start = new Date('2020-03-16');
+
+// dynamic
+const yesterday = new Date(Date.now() - dayInMs);
+slider.max = (yesterday - start) / dayInMs;
+
+function sliderValueToDateString (val) {
+  const days = val * dayInMs;
+  const newDate = new Date(start.getTime() + days);
+  return getDateString(newDate).replace(/-/g, '');
+}
 
 function getFeature (CVE_ENT) {
   return centerPoints.features
@@ -22,7 +41,6 @@ function casesToFeatures (cases) {
       return f;
     });
 }
-
 
 function styleExpressionForFeatures (features) {
   // Calculate color for each state based on the infection rate
@@ -74,21 +92,36 @@ map.on('load', function () {
     },
     'waterway-label'
   );
+
+  // Open a popup at the location of the click
+  map.on('click', 'states-join', function(e) {
+    var properties = e.features[0].properties;
+    var date = sliderValueToDateString(slider.value);
+    var dateData = series[date];
+    var stateData = dateData[properties.CVE_ENT];
+    var popupCode = `Estado: ${stateData.NOM_ENT}<br />Casos: ${stateData.CASOS}`;
+
+    new mapboxgl.Popup()
+      .setLngLat(e.lngLat)
+      .setHTML(popupCode)
+      .addTo(map);
+  });
+
+  // Change the cursor to a pointer when the mouse is over the states layer.
+  map.on('mouseenter', 'states-join', function() {
+    map.getCanvas().style.cursor = 'pointer';
+  });
+
+  // Change it back to a pointer when it leaves.
+  map.on('mouseleave', 'states-join', function() {
+    map.getCanvas().style.cursor = '';
+  });
 });
 
-const getDateString = d => d.toISOString().split('T')[0];
-const dayInMs = 86400000;
-const start = new Date('2020-03-16');
-const yesterday = new Date(Date.now() - dayInMs);
-
-const slider = document.getElementById('slider');
-slider.max = (yesterday - start) / dayInMs;
 document.getElementById('active-date').innerText = getDateString(start);
 
 document.getElementById('slider').addEventListener('input', function (e) {
-  const days = e.target.value * dayInMs;
-  const newDate = new Date(start.getTime() + days);
-  var date = getDateString(newDate).replace(/-/g, '');
+  var date = sliderValueToDateString(e.target.value);
 
   // update the map
   var features = casesToFeatures(series[date]);
